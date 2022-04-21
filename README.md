@@ -6,7 +6,7 @@ Project consist of 2 folders:
 
 ## Task 1
 Service is build with Node.js with Express.js framework. 
-MySQL Database in XAMPP are used.
+MySQL Database in XAMPP is used.
 
 To run the service:
 - Run `npm install` to install all required dependencies
