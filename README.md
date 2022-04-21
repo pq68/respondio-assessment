@@ -59,7 +59,7 @@ FB_WEBHOOKURL=[YOUR-FORWARDING-URL-FROM-NGROK]/webhook
 - Run `[YOUR-FORWARDING-URL-FROM-NGROK]/webhook/setup` to setup the webhook in the facebook app
 
 ### Run app locally
-Run `npm run start` to start the service
+Run `npm run start` to start the service. Send message in the messenger on the facebook page
 
 ## Task 2
 - Run `node index.js` to run the function
