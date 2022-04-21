@@ -44,6 +44,12 @@ EMAIL_PASSWORD=
 ```
 EMAIL_NOTIFY=
 ```
+### To enable send email from google account in nodemailer:
+- Enable less secure apps - https://www.google.com/settings/security/lesssecureapps
+- Disable Captcha temporarily so you can connect the new device/server - https://accounts.google.com/b/0/displayunlockcaptcha
+
+https://support.google.com/mail/answer/7126229?p=BadCredentials&visit_id=637860714319431171-954885423&rd=2#cantsignin&zippy=%2Ci-cant-sign-in-to-my-email-client
+
 ### Webhook URL
 - `ngrok` is run separately to expose the local development server. Sign up and download `ngrok` at https://ngrok.com/download and run `ngrok http 5001`
 - Retrieve the Forwarding URL. Setup the webhook URL in the configuration file at ``.env/.dev.env`` file. The
@@ -52,14 +58,8 @@ FB_WEBHOOKURL=[YOUR-FORWARDING-URL-FROM-NGROK]/webhook
 ```
 - Run `[YOUR-FORWARDING-URL-FROM-NGROK]/webhook/setup` to setup the webhook in the facebook app
 
-Run `npm run start` to start the service.
-
-
-### To enable send email from google account in nodemailer:
-- Enable less secure apps - https://www.google.com/settings/security/lesssecureapps
-- Disable Captcha temporarily so you can connect the new device/server - https://accounts.google.com/b/0/displayunlockcaptcha
-
-https://support.google.com/mail/answer/7126229?p=BadCredentials&visit_id=637860714319431171-954885423&rd=2#cantsignin&zippy=%2Ci-cant-sign-in-to-my-email-client
+### Run app locally
+Run `npm run start` to start the service
 
 ## Task 2
 - Run `node index.js` to run the function
