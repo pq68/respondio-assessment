@@ -52,7 +52,7 @@ https://support.google.com/mail/answer/7126229?p=BadCredentials&visit_id=6378607
 
 ### Webhook URL
 - `ngrok` is run separately to expose the local development server. Sign up and download `ngrok` at https://ngrok.com/download and run `ngrok http 5001`
-- Retrieve the Forwarding URL. Setup the webhook URL in the configuration file at ``.env/.dev.env`` file. The
+- Retrieve the Forwarding URL. Setup the webhook URL in the configuration file at ``.env/.dev.env`` file
 ```
 FB_WEBHOOKURL=[YOUR-FORWARDING-URL-FROM-NGROK]/webhook
 ```
