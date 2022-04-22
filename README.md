@@ -56,10 +56,11 @@ https://support.google.com/mail/answer/7126229?p=BadCredentials&visit_id=6378607
 ```
 FB_WEBHOOKURL=[YOUR-FORWARDING-URL-FROM-NGROK]/webhook
 ```
-- Run `[YOUR-FORWARDING-URL-FROM-NGROK]/webhook/setup` to setup the webhook in the facebook app
 
 ### Run app locally
-Run `npm run start` to start the service. Send message to the facebook page
+- Run `npm run start` to start the service
+- Run `[YOUR-FORWARDING-URL-FROM-NGROK]/webhook/setup` to setup the webhook in the facebook app
+- Send message to the facebook page
 
 ## Task 2
 - Run `node index.js` to run the function
